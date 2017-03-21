@@ -42,12 +42,13 @@ func main() {
 		return
 	}
 
-	checkpoint(locus, "registerWithRetries")
+	/* Rooms no longer register themselves
+        checkpoint(locus, "registerWithRetries")
 	err = registerWithRetries(client)
 	if err != nil {
 		fmt.Printf(err.Error())
 		return
-	}
+	}*/
 	checkpoint(locus, "startServer")
 	startServer()
 }
