@@ -22,11 +22,7 @@ Game On! when deployed using containers requires:
 - [Bluemix account](https://console.ng.bluemix.net)
 - [GitHub account](https://github.com/)
 - [Docker](https://docs.docker.com/engine/installation/) - You will need Docker on your host machine to create a docker image to be pushed to IBM Bluemix Containers
-- [IBM Containers CLI](https://www.ng.bluemix.net/docs/containers/container_cli_ov.html#container_cli_cfic_install) - This is required to manage IBM Containers from your local machine.  *Tip:* if you have difficulty installing the *ic* plugin as a download, try installing using a repo like this:
-
-1.  Add a repository to your cf install:  `cf add-plugin-repo IBM-plugins http://plugins.ng.bluemix.net`
-2.  Install the plugin from the repository:  `cf install-plugin IBM-Containers -r IBM-plugins`
-
+- [IBM Containers CLI](https://console.ng.bluemix.net/docs/containers/container_cli_cfic_install.html) - This is required to manage IBM Containers from your local machine.  
 
 ## Create Bluemix accounts and log in
 To build a Game On! room in Bluemix, you will first need a Bluemix account.
